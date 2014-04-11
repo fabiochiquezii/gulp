@@ -1,0 +1,13 @@
+a {
+  color: blue; }
+  a:hover {
+    color: red; }
+  a:visited {
+    color: green; }
+
+body p {
+  background: white; }
+  body p:hover {
+    background: blue; }
+body ul {
+  list-style: none; }

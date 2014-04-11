@@ -1,0 +1,1 @@
+window.onload=function(){alert("x.x"),alert("yess ta pegando mesmooo, cara isso é mto lgl")};

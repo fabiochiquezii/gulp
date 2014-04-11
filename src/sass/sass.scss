@@ -1,0 +1,31 @@
+@mixin link ($normal, $hover, $visited){
+	color: $normal;
+	&:hover{
+		color: $hover;
+	}
+	&:visited{
+		color: $visited;
+	}
+}
+
+a{
+	@include link(blue, red, green);
+}
+
+body{
+	h1{
+	}
+
+	p{
+		background: white;
+
+		&:hover{
+			background: blue;
+		}
+	}
+
+	ul{
+		list-style: none;
+	}
+}
+
